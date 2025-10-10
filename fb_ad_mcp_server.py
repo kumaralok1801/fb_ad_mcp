@@ -19,6 +19,10 @@ import time
 from typing import Any, Dict, List, Optional, Tuple
 
 import requests
+import dotenv
+
+# Load environment variables from .env file
+dotenv.load_dotenv()
 
 # If your FastMCP comes from a different package path, adjust this import.
 from fastmcp import FastMCP
